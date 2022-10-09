@@ -29,4 +29,3 @@ export default NextAuth({
   },
 }
 );
-const data = await redis.set('foo', 'bar');
