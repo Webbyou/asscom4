@@ -12,5 +12,5 @@ export default function Home() {
       </>
     );
   }
-  return <button onClick={signIn}>Sign in</button>;
+  return <button onClick={signIn}>Prova a fare il ,oghin</button>;
 }
