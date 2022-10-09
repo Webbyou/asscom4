@@ -7,7 +7,7 @@ import "dotenv/config";
 export default NextAuth({
   adapter: UpstashRedisAdapter(
     new Redis({
-      url: process.env.UPSTASH_REDIS_URL,
+      url: 'https://eu2-evident-terrier-30975.upstash.io',
       token: process.env.UPSTASH_REDIS_TOKEN,
     })
   ),
