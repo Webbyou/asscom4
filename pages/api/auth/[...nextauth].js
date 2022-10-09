@@ -19,7 +19,7 @@ export default NextAuth({
   ],
     secret: process.env.NEXTAUTH_SECRET,
   theme: {
-    colorScheme: "light",
+    colorScheme: "dark",
   },
   callbacks: {
     async jwt({ token }) {
