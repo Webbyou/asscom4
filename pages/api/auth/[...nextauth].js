@@ -9,7 +9,7 @@ export default NextAuth({
     new Redis({
       url: 'https://eu2-evident-terrier-30975.upstash.io',
       token: process.env.UPSTASH_REDIS_TOKEN,
-    })
+    }),
      { baseKeyPrefix: "app-specific-prefix-1:" }
   ),
   providers: [
